@@ -1,0 +1,67 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+/* LIGHT MODE */
+body.light {
+  background: #ffffff;
+  color: #000;
+}
+
+body.light .card {
+  background: #f0f0f0;
+}
+
+/* DARK MODE */
+body.dark {
+  background: #111;
+  color: white;
+}
+
+body.dark .card {
+  background: #1e1e1e;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+#anime-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card button {
+  margin-top: 10px;
+  background: crimson;
+  color: white;
+}

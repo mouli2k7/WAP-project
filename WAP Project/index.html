@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ani News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+  <h1>📰 Ani News</h1>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search anime..." />
+
+    <select id="sort">
+      <option value="">Sort</option>
+      <option value="high">Rating: High → Low</option>
+      <option value="low">Rating: Low → High</option>
+    </select>
+
+    <select id="genre">
+      <option value="">All Genres</option>
+    </select>
+
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </div>
+
+  <div id="anime-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
